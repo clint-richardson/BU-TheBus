@@ -56,7 +56,7 @@ for i in range(0,len(nstops)):
         it+=1
     count+=nstops[i]
 
-fout = open('times.csv','w')
+fout = open('times.csv','a')
 for entry in entries:
     fout.write(entry+'\n')
 
